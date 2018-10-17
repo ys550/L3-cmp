@@ -1,0 +1,29 @@
+|CelluleType
+A => EGout.IN0
+A => PPout.IN1
+A => PGout.IN0
+A => EGout.IN0
+B => PPout.IN1
+B => PGout.IN1
+B => EGout.IN1
+B => EGout.IN1
+PPin => PPout.IN1
+PPin => PGout.IN1
+PPin => PGout.IN1
+PPin => EGout.IN1
+PPin => EGout.IN1
+PPin => EGout.IN1
+PGin => PGout.IN0
+PGin => PPout.IN0
+PGin => PGout.IN1
+PGin => EGout.IN1
+PGin => EGout.IN1
+PGin => EGout.IN0
+EGin => EGout.IN1
+EGin => PPout.IN1
+EGin => PGout.IN1
+PPout <= PPout.DB_MAX_OUTPUT_PORT_TYPE
+PGout <= PGout.DB_MAX_OUTPUT_PORT_TYPE
+EGout <= EGout.DB_MAX_OUTPUT_PORT_TYPE
+
+
