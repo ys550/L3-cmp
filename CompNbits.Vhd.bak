@@ -2,7 +2,7 @@
 library IEEE;
     use IEEE.std_logic_1164.all;
 
-entity CompNbits is       --Definition de l'entitï¿½
+entity CompNbits is       --Definition de l'entité
 
     GENERIC (N : integer := 4);
     port (
@@ -16,7 +16,7 @@ entity CompNbits is       --Definition de l'entitï¿½
 end CompNbits;
 
 architecture Structurel of CompNbits is
-Component CelluleType       -- celluleType initialisation
+Component CelluleType
     port (
 --          Entrees
             A: in std_logic;
